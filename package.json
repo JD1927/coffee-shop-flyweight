@@ -1,0 +1,28 @@
+{
+  "name": "coffee-shop-flyweight",
+  "version": "1.0.0",
+  "description": "This is just a repository test to try out the Flyweight Design Pattern",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn build && node ./dist/main.js",
+    "start:w": "nodemon ./dist/main.js",
+    "build": "tsc",
+    "build:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JD1927/coffee-shop-flyweight.git"
+  },
+  "author": "Juan David Aguirre Córdoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JD1927/coffee-shop-flyweight/issues"
+  },
+  "homepage": "https://github.com/JD1927/coffee-shop-flyweight#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10"
+  }
+}
